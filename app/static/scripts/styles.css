@@ -1,0 +1,58 @@
+.main-nav {
+    padding: 10px;
+    background-color: black;
+}
+
+.main-nav > a {
+    color: white;
+}
+
+.app-logo {
+    max-width: 10rem;
+    height: auto;
+}
+
+.test-table {
+
+}
+
+.ad-space {
+    border-top: dashed;
+    border-left: dashed;
+}
+
+/*th, td {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+th > span {
+    font-size: 18px;
+}
+
+td {
+    vertical-align: top;
+    white-space: break-spaces;
+}
+
+.v-align-top {
+    vertical-align: top;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+}
+
+.testTable {
+    border-collapse: collapse;
+    border: solid 1px black;
+    width: 100%;
+}
+
+.testSteps textarea, td textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+}*/
