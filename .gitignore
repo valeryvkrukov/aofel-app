@@ -1,0 +1,15 @@
+.venv/
+dist/
+build/
+__pycache__/
+instance/
+.webassets-cache
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+.env
+.flaskenv
+*.pyc
+*.pyo
+.vscode
