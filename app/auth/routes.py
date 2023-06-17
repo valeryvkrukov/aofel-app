@@ -60,12 +60,12 @@ def register():
     except Exception as e:
         return jsonify({'error': str(e)})
 
-@bp.route('/api/checkiftokenexpire', methods=['POST'])
+@bp.route('/api/is-token-expire', methods=['POST'])
 @jwt_required()
 def check_if_token_expire():
     return jsonify({'success': True})
 
-@bp.route('/api/refreshtoken', methods=['POST'])
+@bp.route('/api/refresh-token', methods=['POST'])
 @jwt_required(refresh=True)
 def refresh():
     identity = get_jwt_identity()
@@ -73,7 +73,7 @@ def refresh():
 
     return jsonify({'token': token})
 
-@bp.route('/api/getcurrentuser')
+@bp.route('/api/current-user')
 @jwt_required()
 def current_user():
     uid = get_jwt_identity()
@@ -111,7 +111,7 @@ def refresh_logout():
         return jsonify({'error': str(e)})
 
 
-@bp.route('/api/deleteaccount', methods=['DELETE'])
+@bp.route('/api/delete-account', methods=['DELETE'])
 @jwt_required()
 def delete_account():
     try:

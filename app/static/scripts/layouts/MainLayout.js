@@ -25,7 +25,6 @@ const MainLayout = ({ children }) => {
 
     return (
         <React.Fragment>
-            {navbar}
             {mainContainer}
         </React.Fragment>
     );

@@ -1,3 +1,7 @@
+html, body {
+    height: 100%;
+}
+
 .main-nav {
     padding: 10px;
     background-color: black;
@@ -17,8 +21,8 @@
 }
 
 .ad-space {
-    border-top: dashed;
-    border-left: dashed;
+    border: dashed;
+    border-right: none;
 }
 
 /*th, td {
